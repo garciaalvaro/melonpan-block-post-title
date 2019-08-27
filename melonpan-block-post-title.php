@@ -4,7 +4,7 @@
  * Plugin URI: #
  * Description: Block that displays the Post Title and Excerpt
  * Author: melonpan
- * Version: 0.0.1
+ * Version: 1.0.0
  * License: GPL3+
  * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
  */
@@ -15,7 +15,7 @@ namespace MELONPANBLOCKPOSTTITLE;
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 if ( ! defined( __NAMESPACE__ . '\PLUGIN_VERSION' ) ) {
-	define( __NAMESPACE__ . '\PLUGIN_VERSION', '0.0.1' );
+	define( __NAMESPACE__ . '\PLUGIN_VERSION', '1.0.0' );
 }
 if ( ! defined( __NAMESPACE__ . '\PLUGIN_NAME' ) ) {
 	define( __NAMESPACE__ . '\PLUGIN_NAME', 'melonpan-block-post-title' );
