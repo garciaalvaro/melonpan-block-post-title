@@ -1,4 +1,4 @@
-import { block_category } from "utils/data/plugin";
+import { block_category } from "utils/data";
 
 type Category = import("wordpress__blocks/api/categories").Category;
 
