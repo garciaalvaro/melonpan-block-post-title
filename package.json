@@ -2,7 +2,7 @@
 	"name": "melonpan-block-post-title",
 	"version": "1.0.0",
 	"description": "Melonpan Block Post Title WordPress Plugin",
-	"homepage": "#",
+	"homepage": "https://wordpress.org/plugins/melonpan-block-post-title/",
 	"scripts": {
 		"dev": "webpack --mode development --watch --config ./.webpack/build.config.babel.js",
 		"prod": "webpack --mode production --config ./.webpack/build.config.babel.js",

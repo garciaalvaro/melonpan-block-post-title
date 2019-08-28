@@ -1,4 +1,4 @@
-=== Melonpan Block Post Title ===
+=== Melonpan Block - Post Title ===
 Contributors: melonpan
 Tags: post, title, post-title, block, block-editor, excerpt, gutenberg
 Requires at least: 5.2

@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Melonpan Block Post Title
+ * Plugin Name: Melonpan Block - Post Title
  * Plugin URI: #
  * Description: Block that displays the Post Title and Excerpt
  * Author: melonpan
