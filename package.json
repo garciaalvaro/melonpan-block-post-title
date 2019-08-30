@@ -22,7 +22,7 @@
 		"@babel/preset-typescript": "^7.3.3",
 		"@babel/register": "^7.5.5",
 		"@types/lodash": "^4.14.138",
-		"@types/node": "^12.7.2",
+		"@types/node": "^12.7.3",
 		"@types/react-dom": "^16.9.0",
 		"@types/wordpress__block-editor": "^2.2.2",
 		"@types/wordpress__blocks": "^6.4.3",
@@ -41,7 +41,7 @@
 		"string-replace-loader": "^2.2.0",
 		"stylus": "^0.54.7",
 		"stylus-loader": "^3.0.2",
-		"typescript": "^3.5.3",
+		"typescript": "^3.6.2",
 		"webpack": "^4.39.3",
 		"webpack-cli": "^3.3.7"
 	}
