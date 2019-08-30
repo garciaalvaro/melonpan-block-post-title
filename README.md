@@ -1,5 +1,3 @@
-<br />
-
 # Melonpan Block - Post Title
 
 Block that displays the current Post Title and Excerpt. No stylesheets or scripts are added in the front-end.
