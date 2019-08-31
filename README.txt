@@ -8,19 +8,19 @@ Requires PHP: 7.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Block that displays the Post Title and Excerpt.
+Block that displays the current Post Title and Excerpt.
 
 
 == Description ==
 
-Block that displays the Post Title and Excerpt. Simple. The plugin doesn't add any styles or scripts in the front-end.
+Block that displays the current Post Title and Excerpt. No stylesheets or scripts are added in the front-end.
 The block comes with the following settings:
 
-* Title HTML tag: Choose between h1, h1 > a, a, a > h1, span
-* Excerpt: Display the post *custom* excerpt
-* Excerpt HTML tag: Choose between h2, h3, h4, span
+* **Title HTML tag**: Choose between _h1_, _h1 > a_, _a_, _a > h1_, _span_
+* **Excerpt enabled**: Display the post _custom_ excerpt
+* **Excerpt HTML tag**: Choose between _h2_, _h3_, _h4_, _span_
 
-[GitHub repository](https://wordpress.org/plugins/melonpan-block-post-title/).
+[GitHub repository](https://wordpress.org/plugins/melonpan-block-post-title/)
 
 
 == Usage ==
