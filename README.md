@@ -18,4 +18,4 @@ The block comes with the following settings:
 
 ---
 
-The plugin can be downloaded from the [WordPress repository](https://wordpress.org/plugins/melonpan-block-post-title/).
+This plugin can be downloaded from the [WordPress repository](https://wordpress.org/plugins/melonpan-block-post-title/).
