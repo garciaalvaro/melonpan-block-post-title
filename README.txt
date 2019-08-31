@@ -20,7 +20,7 @@ The block comes with the following settings:
 * **Excerpt enabled**: Display the post _custom_ excerpt
 * **Excerpt HTML tag**: Choose between _h2_, _h3_, _h4_, _span_
 
-[GitHub repository](https://wordpress.org/plugins/melonpan-block-post-title/)
+[GitHub repository](https://github.com/garciaalvaro/melonpan-block-post-title)
 
 
 == Usage ==
