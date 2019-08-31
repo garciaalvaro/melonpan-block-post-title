@@ -1,3 +1,5 @@
+![Banner Image](assets-wp/banner-1544x500.png)
+
 # Melonpan Block - Post Title
 
 Block that displays the current Post Title and Excerpt. No stylesheets or scripts are added in the front-end.
