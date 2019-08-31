@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Melonpan Block - Post Title
  * Plugin URI: https://wordpress.org/plugins/melonpan-block-post-title/
- * Description: Block that displays the Post Title and Excerpt
+ * Description: Block that displays the current Post Title and Excerpt.
  * Author: melonpan
  * Version: 1.0.0
  * License: GPL3+
