@@ -1,8 +1,8 @@
+import { InspectorControls } from "@wordpress/block-editor";
+
 import { Div } from "utils/Components";
 import { ControlTitle } from "../ControlTitle/ControlTitle";
 import { ControlExcerpt } from "../ControlExcerpt/ControlExcerpt";
-
-const { InspectorControls } = wp.blockEditor;
 
 export const Controls: React.ComponentType<EditProps> = props => {
 	return (

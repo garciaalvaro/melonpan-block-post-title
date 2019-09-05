@@ -1,3 +1,5 @@
+import { withSelect } from "@wordpress/data";
+
 import { Span, H1, A } from "utils/Components";
 
 interface WithSelectProps {
@@ -5,8 +7,6 @@ interface WithSelectProps {
 }
 
 interface Props extends EditProps, WithSelectProps {}
-
-const { withSelect } = wp.data;
 
 export const Title: React.ComponentType<EditProps> = withSelect<
 	WithSelectProps,
