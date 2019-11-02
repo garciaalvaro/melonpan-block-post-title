@@ -13,14 +13,18 @@ Block that displays the current Post Title and Excerpt.
 
 == Description ==
 
+[Demo](https://gutenberg-showcase.melonpan.io/melonpan-block-post-title) - [Documentation](https://melonpan.io/gutenberg-blocks/melonpan-block-post-title) - [GitHub](https://github.com/garciaalvaro/melonpan-block-post-title)
+
 Block that displays the current Post Title and Excerpt. No stylesheets or scripts are added in the front-end.
+
+
+== Features ==
+
 The block comes with the following settings:
 
 * **Title HTML tag**: Choose between _h1_, _h1 > a_, _a_, _a > h1_, _span_
 * **Excerpt enabled**: Display the post _custom_ excerpt
 * **Excerpt HTML tag**: Choose between _h2_, _h3_, _h4_, _span_
-
-[GitHub repository](https://github.com/garciaalvaro/melonpan-block-post-title)
 
 
 == Usage ==
@@ -38,6 +42,11 @@ Installation from the WordPress admin.
 3. In the results list *Melonpan Block - Post Title* plugin should appear, click **Install Now** button.
 4. Once it finished installing, click the *Activate* button.
 5. That's it, now you can go to any post where Gutenberg is enabled and start using the block.
+
+
+== Screenshots ==
+
+1. Block in the editor
 
 
 == Changelog ==
