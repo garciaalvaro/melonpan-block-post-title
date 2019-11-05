@@ -33,6 +33,7 @@ The block can be found inside the blocks inserter menu under the *Melonpan Block
 Once added in the post you can edit its settings on the Editor sidebar under the Block settings panel.
 The block renders dynamically. This means it doesn't save any content in the Post content, it renders the content when the post loads with the current Post Title and Excerpt.
 
+
 == Installation ==
 
 Installation from the WordPress admin.
