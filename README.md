@@ -2,11 +2,15 @@
 
 # Melonpan Block - Post Title
 
+[Demo](https://gutenberg-showcase.melonpan.io/melonpan-block-post-title) - [Documentation](https://melonpan.io/gutenberg-blocks/melonpan-block-post-title) - [WordPress](https://wordpress.org/plugins/melonpan-block-post-title)
+
+<br />
+
 Block that displays the current Post Title and Excerpt. No stylesheets or scripts are added in the front-end.
 
 <br />
 
-## Block Settings
+## Features
 
 The block comes with the following settings:
 
@@ -16,6 +20,6 @@ The block comes with the following settings:
 
 <br />
 
----
+## Screenshots
 
-This plugin can be downloaded from the [WordPress repository](https://wordpress.org/plugins/melonpan-block-post-title/).
+<img src="assets-repo/screenshot-1.jpg" width="700px" alt="Block in the editor" />
