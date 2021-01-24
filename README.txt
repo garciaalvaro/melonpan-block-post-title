@@ -1,8 +1,8 @@
 === Melonpan Block - Post Title ===
 Contributors: melonpan
 Tags: post, title, post-title, block, block-editor, excerpt, gutenberg
-Requires at least: 5.2
-Tested up to: 5.2
+Requires at least: 5.6
+Tested up to: 5.6
 Stable tag: 1.0.0
 Requires PHP: 7.1
 License: GPLv3
@@ -52,5 +52,9 @@ Installation from the WordPress admin.
 
 == Changelog ==
 
+= 2.0.0 =
+* Refactored code base
+* Updated dependencies
+
 = 1.0.0 =
-* Initial release.
+* Initial release
