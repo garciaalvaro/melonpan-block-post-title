@@ -1,0 +1,1 @@
+export { Excerpt } from "./Excerpt";

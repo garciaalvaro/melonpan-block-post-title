@@ -1,54 +1,56 @@
-import { withSelect } from "@wordpress/data";
+import React, { FunctionComponent } from "react";
+import { useSelect } from "@wordpress/data";
 
-import { Span, H1, A } from "utils/Components";
+import styles from "./Title.styl";
+import { className } from "@/utils";
 
-interface WithSelectProps {
-	title: string;
+interface Props extends EditProps {
+	html_attributes: Record<string, string>;
 }
 
-interface Props extends EditProps, WithSelectProps {}
+export const Title: FunctionComponent<Props> = props => {
+	const { excerpt_enabled, title_html } = props.attributes;
 
-export const Title: React.ComponentType<EditProps> = withSelect<
-	WithSelectProps,
-	EditProps
->(select => ({
-	title: select("core/editor").getEditedPostAttribute("title") || ""
-}))((props: Props) => {
-	const { className, attributes, title } = props;
-	const { excerpt_enabled, title_html } = attributes;
-	const classes = [excerpt_enabled ? className : null, "title"];
+	const title = useSelect<string>(
+		select => select("core/editor").getEditedPostAttribute("title") || ""
+	);
+
+	const html_attributes = excerpt_enabled
+		? { className: styles.title }
+		: {
+				...props.html_attributes,
+				className: className([
+					styles.title,
+					props.html_attributes.className,
+				]),
+		  };
 
 	switch (title_html) {
 		case "a":
 			return (
-				<A className={classes} href="#">
+				<a href="#" {...html_attributes}>
 					{title}
-				</A>
+				</a>
 			);
-			break;
 
 		case "a_h1":
 			return (
-				<A className={classes} href="#">
-					<H1>{title}</H1>
-				</A>
+				<a href="#" {...html_attributes}>
+					<h1>{title}</h1>
+				</a>
 			);
-			break;
 
 		case "h1":
-			return <H1 className={classes}>{title}</H1>;
-			break;
+			return <h1 {...html_attributes}>{title}</h1>;
 
 		case "h1_a":
 			return (
-				<H1 className={classes}>
-					<A href="#">{title}</A>
-				</H1>
+				<h1 {...html_attributes}>
+					<a href="#">{title}</a>
+				</h1>
 			);
-			break;
 
 		default:
-			return <Span className={classes}>{title}</Span>;
-			break;
+			return <span {...html_attributes}>{title}</span>;
 	}
-});
+};

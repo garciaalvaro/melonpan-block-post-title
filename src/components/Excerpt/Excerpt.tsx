@@ -1,37 +1,24 @@
-import { withSelect } from "@wordpress/data";
+import React, { FunctionComponent } from "react";
+import { useSelect } from "@wordpress/data";
 
-import { Span, H2, H3, H4 } from "utils/Components";
+export const Excerpt: FunctionComponent<
+	Pick<EditProps["attributes"], "excerpt_html">
+> = props => {
+	const excerpt = useSelect<string>(
+		select => select("core/editor").getEditedPostAttribute("excerpt") || ""
+	);
 
-interface WithSelectProps {
-	excerpt: string;
-}
-
-interface Props extends EditProps, WithSelectProps {}
-
-export const Excerpt: React.ComponentType<EditProps> = withSelect<
-	WithSelectProps,
-	EditProps
->(select => ({
-	excerpt: select("core/editor").getEditedPostAttribute("excerpt") || ""
-}))((props: Props) => {
-	const { attributes, excerpt } = props;
-	const { excerpt_html } = attributes;
-
-	switch (excerpt_html) {
+	switch (props.excerpt_html) {
 		case "h2":
-			return <H2>{excerpt}</H2>;
-			break;
+			return <h2>{excerpt}</h2>;
 
 		case "h3":
-			return <H3>{excerpt}</H3>;
-			break;
+			return <h3>{excerpt}</h3>;
 
 		case "h4":
-			return <H4>{excerpt}</H4>;
-			break;
+			return <h4>{excerpt}</h4>;
 
 		default:
-			return <Span>{excerpt}</Span>;
-			break;
+			return <span>{excerpt}</span>;
 	}
-});
+};
